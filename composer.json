@@ -1,0 +1,30 @@
+{
+    "name":"brainite/github-hivecom",
+    "type":"library",
+    "description":"Github-Hivecom: Sync commits",
+    "keywords":[
+        "converter"
+    ],
+    "homepage":"https://github.com/brainite/github-hivecom",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Greg Payne",
+            "email":"greg.payne@gmail.com"
+        }
+    ],
+    "require":{
+        "php":">=5.3.3",
+        "twig/twig":"v1.15.1",
+        "doctrine/orm":"2.4.*",
+        "symfony/yaml":"2.7.*",
+        "symfony/console":"2.4.*",
+        "wittiws/quipxml":"dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "GithubHivecom\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
