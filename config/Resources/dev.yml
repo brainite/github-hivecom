@@ -1,0 +1,10 @@
+---
+
+dev:
+  doctrine:
+    driver:       pdo_sqlite
+    memory:       true
+    user:         dev
+    password:     dev
+
+    
